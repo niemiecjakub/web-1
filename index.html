@@ -1,0 +1,31 @@
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Lab</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="index.js" defer></script>
+
+</head>
+<body>
+<div id="app">
+    <h1 id="main-header">Aplikacja</h1>
+    <p>To będzie gra.</p>
+    <ol>
+        <li class="boring">HTML</li>
+        <li class="boring">CSS</li>
+        <li>JS</li>
+        <li id="super-important">Zaimplementować</li>
+    </ol>
+
+    <div class="form-container">
+        <input type="text" id="myTextField">
+        <input type="checkbox" id="myCheckbox">
+        <button type="button" onclick="readValues()">Odczytaj wartości</button>
+    </div>
+
+
+    <button class="reveal-button" onmouseenter="revealTitle()" onmouseleave="revealTitle()"> reveal</button>
+    <h1 id="title" class="invisible">LDNFDSLFNSDFSF</h1>
+</div>
+</body>
+</html>
