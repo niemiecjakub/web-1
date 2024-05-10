@@ -13,6 +13,5 @@ const readValues = () => {
 }
 
 const revealTitle = () => {
-    document.getElementById('title').classList.toggle('invisible')
-    
+    document.getElementById('title').classList.toggle('invisible') 
 }
